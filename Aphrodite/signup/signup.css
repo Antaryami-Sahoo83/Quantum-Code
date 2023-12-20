@@ -1,0 +1,177 @@
+.button-div {
+  width: 350px;
+  height: 60px;
+  border: 2px solid #eee;
+  background-color: #b6bdc9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+  padding: 7px;
+}
+
+.signup-button {
+  width: 100%;
+  height: 56px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 13px;
+  background-color: #e9ecf0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.login-button {
+  width: 100%;
+  height: 56px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 13px;
+  font-size: 17px;
+  font-weight: 600;
+  color: black;
+  background-color: whitesmoke;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #1859c9db;
+}
+
+.signup-button:hover {
+  background-color: green;
+}
+#image {
+  margin-top: 10px;
+  /* box-shadow: 5px 5px 5px 5px gray; */
+  width: 30%;
+  height: 6vh;
+  padding: 2%;
+  font-weight: 600;
+  padding-bottom: 0px;
+  user-select: none;
+  text-decoration: line-through;
+  font-style: italic;
+  font-size: x-large;
+  border: rgb(13, 12, 12) 2px solid;
+  margin-left: 10px;
+}
+
+.inline {
+  display: inline-block;
+  margin: 2%;
+}
+
+.bg {
+  background-image: url("https://www.givenus.com/wp-content/uploads/2020/03/Going-to-the-Library-is-Cool-Again-1-768x481.jpg");
+  background-position: 0%;
+  margin-top: 0%;
+  overflow: hidden;
+  background-size: cover;
+}
+
+.parentDiv {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.parent {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  /* backdrop-filter: blur(7.8px); */
+  /* -webkit-backdrop-filter: blur(7.8px); */
+  border: 1px solid rgba(255, 255, 255, 0.98);
+  font-size: smaller;
+  width: 90%;
+  height: auto;
+  margin: 2% auto;
+  padding: 2%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.header h1 {
+  font-weight: 700;
+  text-transform: capitalize;
+  font-size: 50px;
+  margin: 1%;
+  color: white;
+  text-align: center;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.parent h1 {
+  text-align: center;
+  color: black;
+  font-family: "Raleway", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.parent label {
+  display: flex;
+  align-content: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  color: black;
+  font-weight: 600;
+}
+
+p {
+  font-size: 14px;
+}
+
+.parent input {
+  width: 100%;
+  display: flex;
+  border-radius: 10px;
+  padding: 2%;
+}
+
+.parent select {
+  width: 50%;
+  display: flex;
+  border-radius: 8px;
+  padding: 2%;
+}
+
+#checkbox input {
+  margin: 1%;
+  width: 20px;
+}
+
+.btn {
+  justify-content: center;
+  margin-left: 57px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+  .parent {
+    width: 70%;
+  }
+}
+
+@media (min-width: 992px) {
+  .parent {
+    width: 40%;
+  }
+}
+
+body {
+  background: #fffcfc;
+  font-family: "Varela Round", sans-serif;
+}
+
+@media (min-width: 1200px) {
+  .form-inline .input-group {
+    width: 350px;
+    margin-left: 30px;
+  }
+}

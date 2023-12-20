@@ -1,0 +1,13 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.head {
+  background-image: url("../resources/img/instructor.jpg");
+  /* background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%; */
+}

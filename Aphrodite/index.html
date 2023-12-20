@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quantum Code</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <link rel="icon" href="../../resources/logo.png" type="image/x-icon" />
+  <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
+
+  <!-- my Js -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+  <div class="tle fixed-top">
+    <center class="d-block d-sm-none mt-1 ">
+      <h1>Quantum Code</h1>
+    </center>
+    <nav class="navbar bg-body-white navbar-expand-lg">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Quantum Code</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <a class="navbar-brand d-none d-lg-block" href="#">Quantum Code</a>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <form class="d-flex d-block d-sm-none" role="search">
+                <input class="form-control me-2 " type="search" placeholder="  🔍  Search For The Courses"
+                  aria-label="Search">
+              </form>
+              <li class="nav-item">
+                <a class="nav-link" href="./aboutus/about.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Courses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Careers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Placements</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"></a>
+              </li>
+              <form class="d-flex ms-5 mt-1 d-none d-lg-block" role="search">
+                <input class="form-control me-2 " type="search" placeholder="  🔍       Search For The Courses..."
+                  aria-label="Search">
+              </form>
+            </ul>
+            <a href="../signin/signin.html""><button class="btn btn-outline-dark ms-3 rounded-1" type="submit">Log in</button></a>
+            <a href="./signup/signup.html"><button class="btn btn-dark ms-3 rounded-1" type="submit" >Sign up</button></a>
+          </div>
+        </div>
+    </nav>
+  </div>
+
+  <!-- Carousal -->
+  <!-- <div class="carousal">
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active ">
+          <img src="https://media.istockphoto.com/id/623351544/photo/young-people-doing-group-study-in-library.jpg?s=612x612&w=0&k=20&c=uwPxFzzA_yVCww9yYNjgZtkUKlPfAXp06Qjv1Dlb6NU=" height="600px" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./media/vasily-koloda-8CqDvPuo_kI-unsplash.jpg" height="600px" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./media/christina-wocintechchat-com-KAULAzQwxzE-unsplash.jpg" class="d-block w-100" height="600px" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div> -->
+  <div class="container1">
+    <div class="row">
+      <div class="col-md-6 left">
+
+        <h2 class="wow animate__animated animate__bounceInLeft" data-wow-delay="0.5s">
+          <strong>
+            Elevate Your <span style="color:aqua">Skills</span>
+          </strong>
+        </h2>
+        <h2 class="wow animate__animated animate__bounceInLeft" data-wow-delay="1.5s">
+          <strong>
+            Elevate Your <span style="color:rgb(59, 233, 175)">Future</span>
+          </strong>
+        </h2>
+        <h3 id="head" class="wow" data-wow-delay="2.5s">
+          <!-- Aspiring to Achieving: Your Journey in Tech Starts Here -->
+
+        </h3>
+
+      </div>
+      <div class="col-md-6">
+        <div class="carousel1 wow animate__animated animate__zoomIn">
+          <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="5000">
+                <img src="./media/vasily-koloda-8CqDvPuo_kI-unsplash.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="5000">
+                <img src="./media/christina-wocintechchat-com-KAULAzQwxzE-unsplash.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="5000">
+                <img
+                  src="https://media.istockphoto.com/id/623351544/photo/young-people-doing-group-study-in-library.jpg?s=612x612&w=0&k=20&c=uwPxFzzA_yVCww9yYNjgZtkUKlPfAXp06Qjv1Dlb6NU="
+                  class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- Trending Courses -->
+  <section class="trend ">
+    <div class="mt-5 ms-5 ps-5 py-4 mb-5 headi wow animate__animated animate__bounceInLeft" data-wow-delay="0.3s" ><h2><strong>Trending</strong></h2><h2 class="ms-5"> Courses</h2></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card rounded-0 wow animate__animated animate__fadeInUp" data-wow-delay="0.6s">
+            <img src="./media/christina-wocintechchat-com-KAULAzQwxzE-unsplash.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">AWS Masterclass</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing.
+              </p>
+              <a href="#" class="btn btn-outline-dark rounded-0">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card rounded-0 wow animate__animated animate__fadeInUp" data-wow-delay="1s">
+            <img src="./media/christina-wocintechchat-com-KAULAzQwxzE-unsplash.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">AWS Masterclass</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing.
+              </p>
+              <a href="#" class="btn btn-outline-dark rounded-0">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card rounded-0 wow animate__animated animate__fadeInUp" data-wow-delay="1.4s">
+            <img src="./media/christina-wocintechchat-com-KAULAzQwxzE-unsplash.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">AWS Masterclass</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing.
+              </p>
+              <a href="#" class="btn btn-outline-dark rounded-0">Buy Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="map">
+    <div class="mt-5 ms-5 ps-5 py-4 mb-5 headi wow animate__animated animate__bounceInLeft" ><h2><strong>How To</strong></h2><h2 class="ms-5"> <strong>Reach</strong></h2></div>
+    <div class="row">
+      <div class="col-md-6">
+
+      </div>
+      <div class="col-md-6">
+        <section id="contact" class="contact py wow animate__animated animate__zoomIn">
+          <div class="container grid">
+            <div class="contact-left">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d233.88649908154738!2d85.81398893681228!3d20.292650269428048!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1909d1dde00913%3A0x6b0e1d08f90bce3b!2sRainbow%20Cafe!5e0!3m2!1sen!2sin!4v1703010314304!5m2!1sen!2sin" 
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </section>
+  <section>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit obcaecati mollitia neque illo exercitationem
+    consequuntur architecto, voluptas autem consequatur, error itaque in dolore! Consectetur quis beatae, neque nihil
+    nam assumenda aspernatur quam. Sint est vitae quasi expedita amet quaerat voluptates repellendus fugiat adipisci.
+    Vitae, dignissimos, repellendus magni labore nihil similique quasi accusamus expedita, ipsam impedit perferendis
+    cumque? Temporibus, id commodi doloribus, perferendis iste necessitatibus quod quos voluptates, porro nemo esse
+    voluptate est pariatur vero quidem exercitationem? Iure et aspernatur fugiat hic accusantium? Ipsum, illum veniam
+    iusto accusamus adipisci tenetur ullam modi aperiam neque ex deserunt eaque aut minima dicta facere quasi sequi ab
+    optio qui numquam? Exercitationem enim, aliquam tenetur temporibus ducimus ipsum officiis illum sapiente nihil quasi
+    laudantium dignissimos fuga cupiditate, accusantium inventore neque iure quos sit quia necessitatibus libero facere.
+    Ex officiis fugit cumque dolorum ipsa ipsam unde explicabo. Eos, assumenda odit similique laboriosam minima
+    accusantium sapiente veritatis. Provident recusandae non odio! Ipsum dolorem mollitia deserunt possimus quos
+    sapiente aliquid saepe adipisci facilis a doloremque facere, sed nam unde corrupti aliquam perferendis, illo maxime,
+    consequuntur reiciendis! Recusandae facilis perspiciatis delectus neque saepe nesciunt est quaerat voluptate
+    praesentium qui, officia veritatis blanditiis doloremque rem inventore excepturi reiciendis, adipisci suscipit
+    provident nisi ea numquam! Blanditiis labore, magnam eligendi quos, sit mollitia quam recusandae ut accusamus esse,
+    nam sapiente optio quae harum nostrum voluptas officia! Quibusdam, eveniet aut necessitatibus ipsam quaerat
+    consequatur accusamus iusto doloremque aliquam veniam repellendus unde expedita voluptates quasi libero saepe,
+    tenetur optio accusantium pariatur veritatis ad? Facere nostrum, quam adipisci laboriosam, error aperiam
+    necessitatibus et iste sit nam porro tenetur, quae reiciendis iure maxime provident natus suscipit rem laborum quas
+    possimus modi voluptas. Voluptatibus, quasi aliquam a saepe, error nemo cupiditate praesentium amet labore iste
+    obcaecati dolorem ratione placeat. Nihil iusto sapiente libero eveniet magni quo nobis enim aliquam at perspiciatis
+    facere ab tempore, esse exercitationem odio ad, fugit optio, architecto earum. A, aperiam. Eveniet molestias optio
+    nesciunt quibusdam vitae praesentium ut quidem harum iure, quae quam laudantium aliquam animi doloremque esse?
+    Necessitatibus porro aperiam tempore asperiores corporis? Optio eum reprehenderit adipisci inventore. Libero, dolor
+    deleniti. Aliquid illo natus distinctio amet culpa reiciendis est! Explicabo vel ducimus illum quia, quam aliquam
+    neque cum voluptas tempora repellendus ut autem distinctio, consequatur libero possimus temporibus ea accusamus
+    magni ullam dignissimos fugit eius dolores doloremque. Incidunt provident, atque soluta tempora qui saepe
+    consectetur. Perspiciatis architecto unde, doloribus
+  </section>
+  <footer class="new_footer_area bg_color">
+    <div class="new_footer_top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div class="f_widget company_widget wow fadeInLeft" data-wow-delay="0.2s" style="
+                visibility: visible;
+                animation-delay: 0.2s;
+                animation-name: fadeInLeft;
+              ">
+              <h3 class="f-title f_600 t_color f_size_18">Get in Touch</h3>
+              <p>Don't miss any updates of our new offers!</p>
+              <div class="f_subscribe_two mailchimp">
+                <input type="email" name="EMAIL" class="form-control memail" placeholder="youremail@gmail.com" />
+                <button class="btn btn_get btn_get_two" type="submit">
+                  Subscribe Us
+                </button>
+                <p class="mchimp-errmessage" style="display: none"></p>
+                <p class="mchimp-sucmessage" style="display: none"></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.4s" style="
+                visibility: visible;
+                animation-delay: 0.4s;
+                animation-name: fadeInLeft;
+              ">
+              <h3 class="f-title f_600 t_color f_size_18">Download</h3>
+              <ul class="list-unstyled f_list">
+                <li><a href="#">Android App</a></li>
+                <li><a href="#">ios App</a></li>
+                <li><a href="#">Web App</a></li>
+                <li><a href="#">Company Policy</a></li>
+                <li><a href="#">Booking Slips</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.6s" style="
+                visibility: visible;
+                animation-delay: 0.6s;
+                animation-name: fadeInLeft;
+              ">
+              <h3 class="f-title f_600 t_color f_size_18">
+                Help and Support
+              </h3>
+              <ul class="list-unstyled f_list">
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Terms &amp; conditions</a></li>
+                <li><a href="#">Report an isseue</a></li>
+                <li><a href="#">Documentation</a></li>
+                <li><a href="#">Support Policy</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="f_widget social-widget pl_70 wow fadeInLeft" data-wow-delay="0.8s" style="
+                visibility: visible;
+                animation-delay: 0.8s;
+                animation-name: fadeInLeft;
+              ">
+              <h3 class="f-title f_600 t_color f_size_18">Team Solutions</h3>
+              <div class="f_social_icon">
+                <a href="#" class="fab fa-facebook"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+                <a href="#" class="fab fa-pinterest"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer_bg">
+        <div class="footer_bg_one"></div>
+        <div class="footer_bg_two"></div>
+        <!-- <div class="footer_bg_three"></div>  as not working properly-->
+      </div>
+    </div>
+    <div class="footer_bottom">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 col-sm-7">
+            <p class="mb-0 f_400">© Made by team Quantum with Love</p>
+          </div>
+          <div class="col-lg-6 col-sm-5 text-right">
+            <p>All Rights Reserved by Quantum Code</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+  <script src="./bootstrap/bootstrap.bundle.min.js"></script>
+  <script>
+    var text = "Aspiring to Achieving: Your Journey in Tech Starts Here";
+    console.log(text.length)
+    var delay = 30;
+    var elem = $("#head");
+    //text- string
+    //elem - jQuery element where text is to be attached
+    //delay - the delay in each text
+
+    var addTextByDelay = function (text, elem, delay) {
+      if (!elem) {
+        elem = $("body");
+      }
+      if (text.length > 0) {
+        //append first character
+        setTimeout(
+          function () {
+            //Slice text by 1 character and call function again                
+            addTextByDelay(text.slice(1), elem, delay);
+          }, delay
+
+        );
+
+        elem.append(text[0]);
+      }
+    }
+    setTimeout(function () {
+      addTextByDelay(text, elem, delay)
+    }, 3600);
+
+  </script>
+  <!-- My js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+    integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- My js INit -->
+  <script>new WOW().init();</script>
+
+</body>
+
+</html>
